@@ -7,9 +7,58 @@ from torch.nn import Conv1d, Conv2d, ConvTranspose1d
 from torch.nn import functional as F
 from torch.nn.utils import remove_weight_norm, spectral_norm, weight_norm
 
-from . import attentions, commons, modules
+from . import attentions, commons, modules, monotonic_align
 from .commons import get_padding, init_weights
 
+
+#  NEW: ConvNeXt Block (Supertonic/Vocos)
+class ConvNeXtBlock(nn.Module):
+    """
+    ConvNeXt Block adapted for 1D audio.
+    Lighter and often better than standard ResBlocks for Vocoder tasks.
+    Author: dlthaonhi
+    """
+    def __init__(
+        self,
+        dim: int,
+        intermediate_dim: int,
+        layer_scale_init_value: float = 1e-6
+    ):
+        super().__init__()
+        # Depthwise Conv
+        self.dwconv = nn.Conv1d(dim, dim, kernel_size=7, padding=3, groups=dim)
+        # Pointwise Convs (implemented with Linear for efficiency after permute)
+        self.norm = nn.LayerNorm(dim, eps=1e-6)
+        self.pwconv1 = nn.Linear(dim, intermediate_dim)
+        self.act = nn.GELU()
+        self.pwconv2 = nn.Linear(intermediate_dim, dim)
+        
+        self.gamma = (
+            nn.Parameter(layer_scale_init_value * torch.ones((dim)), requires_grad=True)
+            if layer_scale_init_value > 0
+            else None
+        )
+
+    def forward(self, x):
+        residual = x
+        x = self.dwconv(x)
+        
+        # (N, C, L) -> (N, L, C) for LayerNorm and Linear
+        x = x.transpose(1, 2)
+        x = self.norm(x)
+        x = self.pwconv1(x)
+        x = self.act(x)
+        x = self.pwconv2(x)
+        
+        if self.gamma is not None:
+            x = self.gamma * x
+            
+        # (N, L, C) -> (N, C, L)
+        x = x.transpose(1, 2)
+
+        x = residual + x
+        return x
+# ----------------------------------------------------
 
 class StochasticDurationPredictor(nn.Module):
     def __init__(
@@ -296,6 +345,85 @@ class PosteriorEncoder(nn.Module):
         return z, m, logs, x_mask
 
 
+# class Generator(torch.nn.Module):
+#     def __init__(
+#         self,
+#         initial_channel: int,
+#         resblock: typing.Optional[str],
+#         resblock_kernel_sizes: typing.Tuple[int, ...],
+#         resblock_dilation_sizes: typing.Tuple[typing.Tuple[int, ...], ...],
+#         upsample_rates: typing.Tuple[int, ...],
+#         upsample_initial_channel: int,
+#         upsample_kernel_sizes: typing.Tuple[int, ...],
+#         gin_channels: int = 0,
+#     ):
+#         super(Generator, self).__init__()
+#         self.LRELU_SLOPE = 0.1
+
+#         self.num_kernels = len(resblock_kernel_sizes)
+#         self.num_upsamples = len(upsample_rates)
+#         self.conv_pre = Conv1d(
+#             initial_channel, upsample_initial_channel, 7, 1, padding=3
+#         )
+#         resblock_module = modules.ResBlock1 if resblock == "1" else modules.ResBlock2
+
+#         self.ups = nn.ModuleList()
+#         for i, (u, k) in enumerate(zip(upsample_rates, upsample_kernel_sizes)):
+#             self.ups.append(
+#                 weight_norm(
+#                     ConvTranspose1d(
+#                         upsample_initial_channel // (2**i),
+#                         upsample_initial_channel // (2 ** (i + 1)),
+#                         k,
+#                         u,
+#                         padding=(k - u) // 2,
+#                     )
+#                 )
+#             )
+
+#         self.resblocks = nn.ModuleList()
+#         for i in range(len(self.ups)):
+#             ch = upsample_initial_channel // (2 ** (i + 1))
+#             for j, (k, d) in enumerate(
+#                 zip(resblock_kernel_sizes, resblock_dilation_sizes)
+#             ):
+#                 self.resblocks.append(resblock_module(ch, k, d))
+
+#         self.conv_post = Conv1d(ch, 1, 7, 1, padding=3, bias=False)
+#         self.ups.apply(init_weights)
+
+#         if gin_channels != 0:
+#             self.cond = nn.Conv1d(gin_channels, upsample_initial_channel, 1)
+
+#     def forward(self, x, g=None):
+#         x = self.conv_pre(x)
+#         if g is not None:
+#             x = x + self.cond(g)
+
+#         for i, up in enumerate(self.ups):
+#             x = F.leaky_relu(x, self.LRELU_SLOPE)
+#             x = up(x)
+#             xs = torch.zeros(1)
+#             for j, resblock in enumerate(self.resblocks):
+#                 index = j - (i * self.num_kernels)
+#                 if index == 0:
+#                     xs = resblock(x)
+#                 elif (index > 0) and (index < self.num_kernels):
+#                     xs += resblock(x)
+#             x = xs / self.num_kernels
+#         x = F.leaky_relu(x)
+#         x = self.conv_post(x)
+#         x = torch.tanh(x)
+
+#         return x
+
+#     def remove_weight_norm(self):
+#         for l in self.ups:
+#             remove_weight_norm(l)
+#         for l in self.resblocks:
+#             l.remove_weight_norm()
+
+# MODIFIED: Generator (Replaced HiFi-GAN with Vocos/ConvNeXt)
 class Generator(torch.nn.Module):
     def __init__(
         self,
@@ -309,38 +437,43 @@ class Generator(torch.nn.Module):
         gin_channels: int = 0,
     ):
         super(Generator, self).__init__()
-        self.LRELU_SLOPE = 0.1
-
-        self.num_kernels = len(resblock_kernel_sizes)
         self.num_upsamples = len(upsample_rates)
+        
+        # Initial projection
         self.conv_pre = Conv1d(
             initial_channel, upsample_initial_channel, 7, 1, padding=3
         )
-        resblock_module = modules.ResBlock1 if resblock == "1" else modules.ResBlock2
-
+        
+        # Upsampling backbone
         self.ups = nn.ModuleList()
+        self.conv_blocks = nn.ModuleList() # Replaces the complex resblocks list
+        
+        curr_channel = upsample_initial_channel
+        
         for i, (u, k) in enumerate(zip(upsample_rates, upsample_kernel_sizes)):
+            # 1. Upsample Layer
             self.ups.append(
                 weight_norm(
                     ConvTranspose1d(
-                        upsample_initial_channel // (2**i),
-                        upsample_initial_channel // (2 ** (i + 1)),
+                        curr_channel,
+                        curr_channel // 2,
                         k,
                         u,
                         padding=(k - u) // 2,
                     )
                 )
             )
+            curr_channel //= 2
+            
+            # 2. ConvNeXt Block (Instead of Multi-ResBlocks)
+            # Supertonic/Vocos uses a strong backbone here.
+            # We use 1 block per upsample stage to save memory on T4 while keeping quality high.
+            # Intermediate dim is usually 4x hidden dim
+            self.conv_blocks.append(
+                ConvNeXtBlock(dim=curr_channel, intermediate_dim=curr_channel * 4)
+            )
 
-        self.resblocks = nn.ModuleList()
-        for i in range(len(self.ups)):
-            ch = upsample_initial_channel // (2 ** (i + 1))
-            for j, (k, d) in enumerate(
-                zip(resblock_kernel_sizes, resblock_dilation_sizes)
-            ):
-                self.resblocks.append(resblock_module(ch, k, d))
-
-        self.conv_post = Conv1d(ch, 1, 7, 1, padding=3, bias=False)
+        self.conv_post = Conv1d(curr_channel, 1, 7, 1, padding=3, bias=False)
         self.ups.apply(init_weights)
 
         if gin_channels != 0:
@@ -351,29 +484,24 @@ class Generator(torch.nn.Module):
         if g is not None:
             x = x + self.cond(g)
 
-        for i, up in enumerate(self.ups):
-            x = F.leaky_relu(x, self.LRELU_SLOPE)
+        # Iterate through upsampling and ConvNeXt blocks
+        for up, block in zip(self.ups, self.conv_blocks):
+            x = F.leaky_relu(x, 0.1)
             x = up(x)
-            xs = torch.zeros(1)
-            for j, resblock in enumerate(self.resblocks):
-                index = j - (i * self.num_kernels)
-                if index == 0:
-                    xs = resblock(x)
-                elif (index > 0) and (index < self.num_kernels):
-                    xs += resblock(x)
-            x = xs / self.num_kernels
-        x = F.leaky_relu(x)
+            x = block(x) # ConvNeXt handles its own activation internally
+            
+        x = F.leaky_relu(x, 0.1)
         x = self.conv_post(x)
         x = torch.tanh(x)
 
         return x
 
     def remove_weight_norm(self):
+        print("Removing weight norm...")
         for l in self.ups:
             remove_weight_norm(l)
-        for l in self.resblocks:
-            l.remove_weight_norm()
-
+        # ConvNeXt doesn't use weight_norm usually, but if added later, remove here.
+# -------------------------------------------------------------------------
 
 class DiscriminatorP(torch.nn.Module):
     def __init__(

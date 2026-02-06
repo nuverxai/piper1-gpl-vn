@@ -39,7 +39,40 @@ def generator_loss(disc_outputs):
 
     return loss, gen_losses
 
+def flow_matching_loss(v_pred, x_1, x_0, mask):
+    """
+    Conditional Flow Matching Loss (Eq. 1 in Supertonic/Flow Matching papers).
+    
+    Replaces KL Divergence. instead of maximizing likelihood via VAE, 
+    we minimize the regression error of the vector field.
+    
+    Assumption: Optimal Transport (OT) path is used.
+    Target Vector Field u_t(x|x_1) = x_1 - x_0
+    
+    Args:
+        v_pred: Predicted velocity/vector field from the model [b, channels, time]
+        x_1: Target data (Posterior Latent / Spectrogram) [b, channels, time]
+        x_0: Source noise (Standard Gaussian) [b, channels, time]
+        mask: Sequence mask to handle padding [b, 1, time]
+    """
+    v_pred = v_pred.float()
+    x_1 = x_1.float()
+    x_0 = x_0.float()
+    mask = mask.float()
 
+    # Target velocity for Optimal Transport path is simply (Target - Source)
+    target_v = x_1 - x_0
+    
+    # Calculate MSE between predicted velocity and target velocity
+    # loss = || v_pred - (x_1 - x_0) ||^2
+    loss = (v_pred - target_v) ** 2
+    
+    # Apply mask and normalize by the number of valid elements
+    loss = torch.sum(loss * mask) / torch.sum(mask)
+    
+    return loss
+
+# not use it in new version
 def kl_loss(z_p, logs_q, m_p, logs_p, z_mask):
     """
     z_p, logs_q: [b, h, t_t]
