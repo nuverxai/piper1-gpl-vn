@@ -27,7 +27,6 @@ Vietnamese fientune procedure
 
 Use [piper-recording-studio](https://github.com/rhasspy/piper-recording-studio) to record and prepare raw data.
 
-* 
 **Environment Setup**: 
 
 
@@ -44,20 +43,19 @@ python3 -m pip install -r requirements.txt
 
 ```
 
-* **Procedure**:
-* Launch recording tool: `python3 -m piper_recording_studio` 
+**Procedure**:
+    * Launch recording tool: `python3 -m piper_recording_studio` 
 
 
-* A new file dataset bonus for Vietnamese: [5000000001_5000000450_TNhi.txt](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/extra-recording-file/5000000001_5000000450_TNhi.txt) 
-    * Put file in to the Vietnamese prompt folder: [vi-VN](https://github.com/rhasspy/piper-recording-studio/tree/master/prompts/Vietnamese%20(Vietnam)_vi-VN)
+    * A new file dataset bonus for Vietnamese: [5000000001_5000000450_TNhi.txt](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/extra-recording-file/5000000001_5000000450_TNhi.txt) 
+        * Put file in to the Vietnamese prompt folder: [vi-VN](https://github.com/rhasspy/piper-recording-studio/tree/master/prompts/Vietnamese%20(Vietnam)_vi-VN)
 
 
-* Export dataset: `python3 -m export_dataset output/vi-VN ~/piper-recording-studio/dataset-name` 
+    * Export dataset: `python3 -m export_dataset output/vi-VN ~/piper-recording-studio/dataset-name` 
 
 
 
 
-* 
 **Technical Optimization**: 
 
 
@@ -72,29 +70,25 @@ python3 -m pip install -r requirements.txt
 ### 2. Training on Google Colab
 
 
-* 
-**Setup Colab**: Sử dụng cấu hình tại [nuverxai/piper1-gpl-vn](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/colab/VN_piper_demo.ipynb). 
+* **Setup Colab**: Sử dụng cấu hình tại [nuverxai/piper1-gpl-vn](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/colab/VN_piper_demo.ipynb). 
 
 
-* 
-**Input Data**: Compress the dataset folder, upload to Google Drive, and set permissions to Public. -> Get the file ID to change in Colab 
+* **Input Data**: Compress the dataset folder, upload to Google Drive, and set permissions to Public. -> Get the file ID to change in Colab 
 
 
 
-* 
-**Checkpoint Selection**: 
+* **Checkpoint Selection**: 
 
 
-* Vietnamese: [vais1000/medium](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/vi/vi_VN/vais1000/medium) 
+    * Vietnamese: [vais1000/medium](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/vi/vi_VN/vais1000/medium) 
 
 
-* English: [Male](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/en/en_US/hfc_male/medium) | [Female](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/en/en_US/hfc_female/medium) 
+    * English: [Male](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/en/en_US/hfc_male/medium) | [Female](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/en/en_US/hfc_female/medium) 
 
 
 
 
-* 
-**Epoch Configuration**: Set --trainer.max_epochs to the sum of previous epochs plus the new training target.
+* **Epoch Configuration**: Set --trainer.max_epochs to the sum of previous epochs plus the new training target.
 
 ---
 
