@@ -1,0 +1,350 @@
+5000000001	Theo đơn thuốc mà bác sĩ kê, bà cần uống thuốc huyết áp vào buổi sáng và buổi tối đúng giờ nhé bà.
+5000000002	Hôm nay bà có thấy mệt không ạ.
+5000000003	Bà có bị đau ở đâu không.
+5000000004	Nếu thấy chóng mặt bà báo cháu nhé.
+5000000005	Bà nên nghỉ ngơi một lát.
+5000000006	Đã đến giờ ăn trưa rồi ông ạ.
+5000000007	Ông nhớ uống nước đầy đủ nhé.
+5000000008	Trời hôm nay hơi lạnh đó ông. 
+5000000009	Ông nên đi ngủ sớm một chút ạ
+5000000010	Nếu có vấn đề gì về sức khoẻ thì bà cứ nói với cháu nhé, cháu sẽ giúp bà gọi cho con trai của bà đến hỗ trợ bà.
+5000000011	Cháu luôn sẵn sàng giúp bác.
+5000000012	Bác cần cháu hỗ trợ việc gì không.
+5000000013	Cháu rất vui khi được nói chuyện với bác.
+5000000014	Bác chỉ cần nói cho cháu nghe thôi.
+5000000015	Bác nhấn nút màu xanh nhé.
+5000000016	Bác đợi cháu một chút.
+5000000017	Không sao đâu bác ạ.
+5000000018	Bác cứ bình tĩnh nhé.
+5000000019	Bác có thấy khó thở không.
+5000000020	Bà bị ngã có đau lắm không vậy bà?
+5000000021	Mọi việc sẽ ổn thôi bác.
+5000000022	Bác có cần cháu gọi người thân không.
+5000000023	Cháu thấy bác trông khỏe hơn mấy hôm trước đó.
+5000000024	Bác có cảm thấy ăn uống ngon miệng hơn không ạ?
+5000000025	Hôm nay có ai đến thăm bác nữa không?
+5000000026	Dạo này trời mát mẻ, thích hợp để nghỉ ngơi thư giãn lắm ông nhỉ?
+5000000027	Hôm nay bác thấy khoẻ hơn hôm qua chứ ạ?
+5000000028	Bác có thấy đỡ mệt hơn không?
+5000000029	Ăn uống mấy ngày nay có ngon miệng hơn chưa mẹ?
+5000000030	Ba nghỉ ngơi có đủ giấc không ạ?
+5000000031	Ba có đọc sách hay nghe đài để thư giãn không?
+5000000032	Hôm nay bà có đi lại được đôi chút không ạ?
+5000000033	Lúc khoẻ lại, mẹ muốn đi đâu thư giãn đầu tiên?
+5000000034	Ba có muốn nghe nhạc hay xem chương trình gì không để cháu chuẩn bị?
+5000000035	Mấy hôm nay trời đẹp, bà có ngồi ngoài sân thư giãn không?
+5000000036	Bà nên bón phân hữu cơ cho cây hoa lan để cung cấp dinh dưỡng và giúp cây phát triển tốt nhé bà.
+5000000037	Người già bị ném vào một không gian xa lạ, ồn ào, bức bối của thành thị.
+5000000038	Không gian mới, xung quanh toàn người là người nhưng ông vẫn không sao tìm được một người để nói chuyện với mình.
+5000000039	Thế nên vào những năm tháng cuối đời, bà thường đắm chìm trong thế giới riêng của mình có tên là “hồi đó”.
+5000000040	Má ra ngoài này có quen ai đâu mà nói chuyện, coi chừng bị người ta gạt!
+5000000041	Người lạ nhưng họ biết nói chuyện với má, có gạt má cũng vừa lòng!
+5000000042	Ông muốn nghe nhạc xuân không ông?
+5000000043	Cháu gợi ý ông pha nước mắm với tỏi, ớt, đường, chanh và một ít nước lọc để tạo vị chua ngọt hài hòa nhé ông.
+5000000044	Ông ngâm rau muống 10 phút, luộc nhanh lửa lớn và nước thật rôi.
+5000000045	Cháu có thể giúp gì cho bác không?
+5000000046	Bác cảm thấy thoải mái ở môi trường bệnh viện không?
+5000000047	Bác muốn cháu đọc sách, báo, hoặc câu chuyện gì cho bác nghe không?
+5000000048	Bác sĩ nói chuyển biến tình hình sức khỏe của bác như nào ạ? 
+5000000049	Anh giờ đang làm công việc gì bác ha? 
+5000000050	Bác có hay lên thành phố thăm con cháu không? 
+5000000051	Bác có thích về quê thăm bạn bè, người thân không? 
+5000000052	Bà có cần cháu hỗ trợ hay giúp đỡ điều gì không? 
+5000000053	Không sao đâu ạ. Bác sẽ nhanh khỏe lại thôi. Bác cần gì cứ gọi cho cháu nhé! 
+5000000054	Để lấy lại sức khỏe tốt bác nên: ăn nhẹ, hít thở sâu, sống điều độ.
+5000000055	Chúc bác nhanh chóng bình phục, sớm khỏe mạnh như ngày trước.
+5000000056	Sức khỏe là tài sản quý giá nhất, không bao giờ lấy lại được khi thời gian trôi qua. 
+5000000057	Chúc bác có sức khỏe thật dồi dào.
+5000000058	Bác nhớ giữ gìn sức khỏe, ăn ngủ thật tốt nhé! 
+5000000059	Bác cứ yên tâm dưỡng bệnh ở nhà cho khỏi bác nhé.
+5000000060	Mọi việc để đó đi ạ, sau khi khỏe lại rồi lại làm tiếp cũng không sao.
+5000000061	Bác hãy an tâm mà nghỉ ngơi nhé, mọi thứ rồi sẽ qua thôi.
+5000000062	Nhớ chăm sóc sức khỏe tốt, bác nhé!
+5000000063	Thiếu vắng bác, mọi người ở nhà buồn lắm ạ.
+5000000064	Bác hãy mau chóng khỏe bệnh để về nhà sum họp với gia đình nhé! 
+5000000065	Và ông nhớ đừng đậy nắp vung ông nhé.
+5000000066	Không phải tôi dư thời gian, không phải tôi cô đơn, không phải tôi không có những bạn cùng lứa để tỉ tê chuyện trò.
+5000000067	Những người bạn của tôi đa số là trẻ về tuổi tác lẫn tư duy phóng khoáng, cởi mở.
+5000000068	Trò chuyện với họ dĩ nhiên là rất thú vị.
+5000000069	Nhưng những cuộc tỉ tê với người già vẫn như một chất xúc tác giúp tôi chạm vào đời sống, hiểu đời một cách sâu sắc.
+5000000070	Từ những cuộc chuyện trò này, cuộc sống tôi mở ra nhiều ô cửa.
+5000000071	Có ô thâm trầm, có ô tươi sáng, có ô lem nhem những nghi hoặc.
+5000000072	Bà có thể chia sẻ với cháu những điều làm bà buồn không?
+5000000073	Cháu sẽ lắng nghe và cùng bà tìm cách giải quyết nhé.
+5000000074	Nhưng cũng có những ô cửa đầy đặn những tin yêu.
+5000000075	Nhờ những người già, tôi sống một cuộc đời bớt hời hợt đi, tập hiểu và thương những gì cũ càng, quá vãng.
+5000000076	Bởi nếu không có những lam lũ của quá khứ, làm sao có rực rỡ của hiện tại bây giờ.
+5000000077	Hai vợ chồng làm gì để nuôi 18 miệng ăn trong giai đoạn chiến tranh ác liệt?
+5000000078	Má móm mém cười lộ 2 chiếc răng khểnh.
+5000000079	Cháu chúc bà một năm mới an khang thịnh vượng, sức khỏe dồi dào và vạn sự như ý.
+5000000080	Cứ hễ đẻ được thì nuôi được hết, không có cơm thì có cháo, đứa lớn ăn cái, đứa nhỏ húp nước cháo chan đường.
+5000000081	Hôm nay bà mua hải sản có tươi không bà?
+5000000082	Ông nên tưới nước cho cây hoa hồng đều đặn, tránh ngập úng.
+5000000083	Tuổi tác khiến họ có thể bị lẫn, không nhớ khuôn mặt của con cháu hiện tại, không nhớ tuổi mình.
+5000000084	Nhưng nhớ rõ tên cha, mặt mẹ, nhớ từng cái nết ăn nết ở của bậc sinh thành.
+5000000085	Gần đây tôi hay coi những video của một bạn trẻ hay ngồi trò chuyện với bà nội của cậu.
+5000000086	Bà nội đã lẫn, không nhớ đứa cháu nội.
+5000000087	Nhưng hễ được cháu mua món ngon cho ăn là lúc nào cũng lịch sự xin một phần, lật đật đem cất trong bếp "để dành cho má".
+5000000088	Má của bà, tức bà cố của đứa cháu, dẫu bây giờ chỉ là một làn khói mỏng đâu đó tận chân trời.
+5000000089	Cái tình thương của bà dành cho má vẫn quấn quýt trăm năm!
+5000000090	Người già dạy con cháu bằng những chuyện xa xưa.
+5000000091	Tôi học họ, rồi để dành cho mai này...
+5000000092	Bữa giờ ông có đi đâu chơi, có ra công viên tập thể dục không?
+5000000093	Dạo này bà có đọc báo, xem thời sự hay làm gì không ạ?
+5000000094	Hồi đó bà vất vả lắm phải không ạ?
+5000000095	Hồi đó ông vui vẻ lắm phải không ạ?
+5000000096	Chuyện ngày xưa bà kể hay quá, kể cho cháu nghe thêm được không?
+5000000097	Ông minh mẫn quá, còn nhớ rõ thế. 
+5000000098	Cháu học được nhiều điều từ bà
+5000000099	Gia đình mình có khỏe cả không ạ?
+5000000100	Thế sau đó ông và bà làm gì?
+5000000101	Nhi nhìn những nhành hoa nhỏ.
+5000000102	Cô Nhi nhẹ nhàng nhắc nhở em.
+5000000103	Những nhịp nhạc nhẹ nhàng vang lên.
+5000000104	Em bé nhõng nhẽo đòi mẹ.
+5000000105	Nhím nhỏ nằm ngủ trong nhà.
+5000000106	Nhân viên nhận nhiệm vụ mới.
+5000000107	Nhớ nhung những ngày xưa cũ.
+5000000108	Nhịp tim nhẹ nhưng rõ ràng.
+5000000109	Nhìn kỹ những chi tiết nhỏ.
+5000000110	Nhiều người nhấn mạnh điều này.
+5000000111	Trời nắng gắt giữa trưa hè.
+5000000112	Ánh nắng làm lá khô nhanh.
+5000000113	Cái khăn trắng rất sạch sẽ.
+5000000114	Bắp ngô nặng và chắc hạt.
+5000000115	Mặt đất nứt nẻ vì nắng.
+5000000116	Căn nhà nhỏ nhưng ấm áp.
+5000000117	Con rắn nằm sát mép đá.
+5000000118	Nắng sớm chiếu qua cửa sổ.
+5000000119	Áo trắng phơi ngoài nắng.
+5000000120	Ngày đầu năm, cháu chúc ông bà mạnh khỏe, an khang thịnh vượng và vạn sự như ý nhé ông bà!
+5000000121	Hệ thống xử lý dữ liệu lớn.
+5000000122	Cô ấy cư xử rất lịch sự.
+5000000123	Ngôn ngữ tự nhiên rất phức tạp.
+5000000124	Nơ-ron nhân tạo mô phỏng não người.
+5000000125	Mơ ước của tôi rất đơn giản.
+5000000126	Trí nhớ máy học ngày càng tốt.
+5000000127	Cửa sổ mở ra hướng đông.
+5000000128	Cử động nhẹ nhàng và chính xác.
+5000000129	Dữ liệu được xử lý tự động.
+5000000130	Lơ đãng khiến tôi quên việc.
+5000000131	Ràng buộc dữ liệu rất chặt chẽ.
+5000000132	Âm thanh rè làm khó chịu.
+5000000133	Con đường rẽ sang bên phải.
+5000000134	Rừng rậm rất rậm rạp.
+5000000135	Rõ ràng đây là kết quả tốt.
+5000000136	Rạng sáng trời rất lạnh.
+5000000137	Tôi rủ rê bạn bè đi chơi.
+5000000138	Rì rào tiếng gió thổi.
+5000000139	Rung động lan tỏa khắp phòng.
+5000000140	Rất rõ ràng và mạch lạc.
+5000000141	Mọi người đều đồng ý.
+5000000142	Cái bệ rất nặng và chắc.
+5000000143	Anh ấy tỏ ra miễn cưỡng.
+5000000144	Vấn đề trở nên nghiêm trọng.
+5000000145	Hệ thống chạy chậm và tệ.
+5000000146	Âm thanh nặng nhưng rõ.
+5000000147	Lệ phí được giảm bớt.
+5000000148	Sự cố này khá nặng nề.
+5000000149	Mọi thứ diễn ra chậm rãi.
+5000000150	Nét chữ đậm và nặng.
+5000000151	Chữ a, ă và â khác nhau.
+5000000152	Các nguyên âm ê, ô, ơ rất quan trọng.
+5000000153	Ký tự x và y thường dùng trong toán.
+5000000154	Số 6 đọc là sáu.
+5000000155	Dãy số 1 2 3 4 5 6.
+5000000156	Chữ cái x đứng trước y.
+5000000157	Âm â phát âm ngắn.
+5000000158	Chữ ê có dấu mũ.
+5000000159	Y học ứng dụng AI.
+5000000160	Biến x y z xuất hiện nhiều trong toán học.
+5000000161	O tròn như quả trứng gà, Ô thì đội mũ, Ơ già thêm râu.
+5000000162	O A hai chữ khác nhau, A khác bởi cái móc câu thêm vào.
+5000000163	A Ă Â thì thế nào?
+5000000164	Â đội cái nón, Ă đầu trăng treo.
+5000000165	B L có thân cao kều, B khác bởi cái chân khoèo mà thôi.
+5000000166	E Ê chị em sinh đôi, Ê đầu đội nón, E thời trọc trơn.
+5000000167	Chữ C còn dễ nhớ hơn, Chữ O khuyết góc chập chờn chữ C.
+5000000168	Hỏi ai có biết D Đ, Móc dài dính với chữ O là thành.
+5000000169	Chữ D thì để nguyên anh, Chữ Đ thêm vạch ngang xinh trên đầu.
+5000000170	G Q đầu tròn giống nhau, Chân q thẳng tuột, g đau co vào.
+5000000171	I móc thấp T móc cao, I thêm chấm gạch ngang vào T thôi.
+5000000172	N M phân biệt dễ rồi, n hai móc ngược, m thời có ba.
+5000000173	U Ư chẳng khác bao là, U là n ngược, Ư già thêm râu.
+5000000174	Chữ P p là Q quy quay đầu, Hai C xuôi ngược dính nhau là X.
+5000000175	Y giống H mờ, Đầu lộn xuống đất chân giơ lên trời.
+5000000176	S cong đầu cong đuôi, Là hình nước Việt mình thôi - mướt mờ.
+5000000177	Đầu tròn chân dạng chữ R, Chữ V nửa dưới của B dễ mà.
+5000000178	Chữ K khác hẳn chữ R, Đầu K cao vút đầu R tròn không.
+5000000179	Theo đơn thuốc mà bác sĩ kê, ông cần uống hai viên thuốc bổ và một viên thuốc canxi mỗi ngày nhé ông.
+5000000180	Ông nhớ mang theo bảo hiểm y tế và đơn thuốc lần trước nhé ông.
+5000000181	Chủ nhật tuần này ông có cuộc hẹn với bác sĩ tim mạch lúc 10 giờ sáng.
+5000000182	Bà nhớ tắt tivi trước khi đi ngủ nhé bà.
+5000000183	Ông nên tắt điện phòng ngủ khi không sử dụng để tiết kiệm điện nhé ông.
+5000000184	Ông nhớ tắt ti vi trước khi đi ngủ nhé ông.
+5000000185	Bà nên tắt điện phòng khách khi không sử dụng để tiết kiệm điện nhé bà.
+5000000186	Ông có muốn cháu giúp ông nghe máy không ạ?
+5000000187	Có điện thoại gọi đến cho ông kìa.
+5000000188	Bà có muốn cháu giúp bà mở cửa không ạ?
+5000000189	Ở ngoài cửa đang có ai gọi bà đó ạ.
+5000000190	Nếu triệu chứng kéo dài hoặc nặng hơn, bà cần đến bệnh viện nhé bà.
+5000000191	Nếu bà thấy mệt thì bà nên nằm nghỉ ngơi và uống nước đầy đủ nhé bà. 
+5000000192	Bà cũng nên theo dõi huyết áp thường xuyên và tuân thủ đúng liệu trình điều trị của bác sĩ nhé.
+5000000193	Bà bị cao huyết áp thì bà nên hạn chế muối, uống đủ nước và đi khám định kỳ. 
+5000000194	Ông nhớ uống thuốc hạ huyết áp vào buổi sáng và buổi tối đúng giờ nhé ông.
+5000000195	Hôm nay bà nhớ uống hai viên thuốc bổ nhé bà.
+5000000196	Ông nhớ uống sữa trước khi đi ngủ để bổ sung canxi và giúp xương chắc khỏe nhé ông.
+5000000197	Mình sanh sau 1975 nhưng từ nhỏ được Má dạy cho bài đồng dao này.
+5000000198	Lâu rồi mới lại được nghe những câu này.
+5000000199	Nhưng thời ấy mình chỉ được nghe lõm bõm vài chữ chứ không nhiều thế này.
+5000000200	Nếu bà cần, cháu gợi ý món ăn nào khác cho bữa sau nhé bà.
+5000000201	Hôm nay trời mát mẻ quá nhỉ.
+5000000202	Tôi ăn cơm vào buổi tối.
+5000000203	Con mèo nằm trong ổ rơm.
+5000000204	Bông hoa đỏ rất đẹp.
+5000000205	Cô giáo nói rõ ràng.
+5000000206	Lồng chim treo trước nhà.
+5000000207	Sông lớn chảy qua làng.
+5000000208	Cửa sổ mở hé, khiến gió lạnh tràn vào.
+5000000209	Ngọn gió thổi mạnh bay tà áo dài.
+5000000210	Hộp đồ để trên bàn trông ngon miệng.
+5000000211	Lá cây lay động nhẹ nhành theo chiều gió.
+5000000212	Gió lay cành tre, gió đưa cành trúc la đà.
+5000000213	Ánh nắng chiếu ban ngày.
+5000000214	Cô ấy cười rất tươi.
+5000000215	Tay cầm ly nước mát lạnh.
+5000000216	Máy bay hạ cánh thẳng táp trên đường băng.
+5000000217	Em chạy rất nhanh, vù vù như cơn gió.
+5000000218	Dãy nhà nằm ven sông Cu-đê.
+5000000219	Ngày mai trời đẹp xanh trong.
+5000000220	Cây cao lay lắt trong gió.
+5000000221	Công việc là nghề nghiệp chính.
+5000000222	Doanh nghiệp đang phát triển.
+5000000223	Kinh nghiệm rất quan trọng.
+5000000224	Sự nghiệp cần kiên trì và bền bỉ.
+5000000225	Dữ liệu được xử lý chuyên nghiệp.
+5000000226	Học tập là nhiệm vụ lâu dài.
+5000000227	Kinh tế ảnh hưởng lớn tới công ty.
+5000000228	Nghiệp vụ được đào tạo bài bản.
+5000000229	Thí nghiệm cho kết quả tốt.
+5000000230	Trách nhiệm đi kèm quyền lợi.
+5000000231	Lập trình rất khó khăn.
+5000000232	Hộp quà đặt trên bàn ăn.
+5000000233	Bài tập đã hoàn tất 100%.
+5000000234	Kết thúc buổi học về AI.
+5000000235	Chiếc bút mực xanh xanh đo đỏ.
+5000000236	Tập sách mới mua mà đã cũ mèm.
+5000000237	Giấc ngủ rất sâu, giấc mơ rất thơ.
+5000000238	Mục tiêu đã đạt được 90%.
+5000000239	Động tác dứt khoát và nghiêm chỉnh.
+5000000240	Áp lực công việc lớn.
+5000000241	Căn nhà rộng thênh thang.
+5000000242	Trăng sáng trên cao, em tựa vai anh.
+5000000243	Cánh đồng bát ngát, bao la thẳng cánh cò bay.
+5000000244	Âm thanh rất ấm, êm ả.
+5000000245	Cảm giác thật lạ, rối bời.
+5000000246	Mặt đất nứt nẻ, khô queo.
+5000000247	Cái khăn trắng màu sữa óc chó.
+5000000248	Bánh ăn rất ngon, măm măm.
+5000000249	Mắt nhìn xa xăm vào hư không.
+5000000250	Ánh sáng nhạt dần, nhạt nhẽo như nước ốc.
+5000000251	Em bé rất dễ thương.
+5000000252	Mẹ kể chuyện ngày xửa ngày xưa.
+5000000253	Cây tre đứng thẳng tắp.
+5000000254	Kế hoạch đã rõ, hành động!
+5000000255	Đèn để trên bàn phòng khách.
+5000000256	Vé xe đã mua được làm từ nhựa polime.
+5000000257	Bà nên chọn hải sản còn sống, không có mùi lạ và bề mặt sáng bóng nhé bà.
+5000000258	Nghe tiếng chim hót inh ỏi.
+5000000259	Lề đường sạch sẽ, thoáng mát, tinh tươm.
+5000000260	Thế giới rất rộng tràn vào ánh mắt em.
+5000000261	Dốc lên khúc khuỷu dốc thăm thẳm.
+5000000262	Con chim nhỏ hót líu lo líu lo.
+5000000263	Ông đang làm nước chấm hải sản phải không ông?
+5000000264	Chợ đông người, Heo hút cồn mây, súng ngửi trời.
+5000000265	Trang sách mới chấp bút ước mơ.
+5000000266	Chuyến tàu đến sớm trong đêm khuya khoắt.
+5000000267	Trăng tròn sáng tỏ, cháu bật bài hát xuân.
+5000000268	Chân bước nhẹ thênh thang.
+5000000269	Trí tuệ nhân tạo AI
+5000000270	Chiếc chén sứ trắng, chòng chành cả tuổi thơ.
+5000000271	Ông đừng lo, cháu sẽ nhắc ông uống nước và nghỉ ngơi đầy đủ nhé.
+5000000272	Ông đừng buồn ông nhé, có cháu luôn ở bên lắng nghe ông nói và trò chuyện cùng ông mỗi ngày.
+5000000273	Cháu là một trợ lý ảo trong vai trò của một người cháu luôn ở bên cạnh lắng nghe và hỗ trợ bà.
+5000000274	Bà có thể hỏi cháu bất cứ khi nào bà cần lời khuyên hoặc chia sẻ cảm xúc bà nhé!
+5000000275	Cháu là một trợ lý ảo luôn ở bên cạnh lắng nghe và hỗ trợ ông.
+5000000276	Ông có thể hỏi cháu bất cứ khi nào ông cần lời khuyên hoặc chia sẻ cảm xúc ông nhé!
+5000000277	Ông đừng ngại chia sẻ với cháu những suy nghĩ và cảm xúc của ông nhé.
+5000000278	Cháu sẽ luôn lắng nghe và hỗ trợ ông hết mình.
+5000000279	Đà Nẵng là thành phố duyên hải miền Trung, nổi tiếng với bãi biển Mỹ Khê và núi Sơn Trà.
+5000000280	Nếu ông đi biển chơi thì ông nên chuẩn bị đồ dùng cá nhân, quần áo nhẹ nhàng và giày chống trơn.
+5000000281	Cháu sẽ gợi ý lịch trình cho ông nhé!
+5000000282	Ông nên thử các món hải sản tươi ngon tại các nhà hàng ven biển ở Đà Nẵng.
+5000000283	Đà nẵng nổi tiếng với mỳ Quảng, bánh xèo, và gỏi cá nhé ông.
+5000000284	Cháu rất vui khi được giúp đỡ bà.
+5000000285	Bà cứ thoải mái hỏi cháu bất cứ điều gì bà cần nhé!
+5000000286	Bà hãy nghỉ ngơi, uống nước đầy đủ và theo dõi sát tình trạng đau đầu bà nhé.
+5000000287	Nếu triệu chứng kéo dài hoặc nặng hơn, bà cần đến cơ sở y tế để được khám chuyên khoa đầu não bà nhé.
+5000000288	Nếu bà muốn đặt lịch khám sức khoẻ, cháu có thể liên hệ với phòng khám hoặc bệnh viện gần nhất để được hỗ trợ đặt lịch cho bà nhé.
+5000000289	Bà bị tiểu đường thì cần hạn chế đồ ngọt và tinh bột, ăn nhiều rau xanh và thực phẩm giàu chất xơ.
+5000000290	Bà cũng nên theo dõi đường huyết thường xuyên và tuân thủ đúng liệu trình điều trị của bác sĩ nhé.
+5000000291	Hôm nay ông có lịch hẹn với bác sĩ vào lúc 10 giờ sáng.
+5000000292	Ông nhớ mang theo giấy tờ cần thiết và đến đúng giờ nhé.
+5000000293	Ngày mai ông có hẹn với ông Nam bạn thân của ông lúc 3 giờ chiều tại quán cà phê quen thuộc.
+5000000294	Ông nhớ chuẩn bị những câu chuyện thú vị để chia sẻ với ông Nam ông nhé.
+5000000295	Hôm nay chị Lan con gái bà sẽ dẫn cả con gái của chị ấy về thăm bà vào lúc 5 giờ chiều.
+5000000296	Bà nhớ chuẩn bị vài món ăn để đón tiếp gia đình chị Lan bà nhé.
+5000000297	Cháu hiểu tâm trạng của ông lúc này.
+5000000298	Ông đừng ngại chia sẻ với cháu những suy nghĩ và cảm xúc của ông nhé.
+5000000299	Cháu sẽ luôn lắng nghe và chia sẻ cảm xúc cùng ông.
+5000000300	Sao bà buồn vậy bà?
+5000000301	Ông nên nghỉ ngơi và thư giãn, có thể xoa bóp nhẹ nhàng để giảm đau mỏi.
+5000000302	Ông có thể thử bài tập nhẹ nhàng như hít thở sâu, xoay cổ và gập người.
+5000000303	Cháu sẽ hướng dẫn từng bước để ông thực hiện đúng cách nhé!
+5000000304	Ông có thể nấu canh bí đỏ, thịt bằm hoặc cá kho tộ.
+5000000305	Những món này vừa dễ ăn lại bổ dưỡng cho sức khỏe của ông đấy ạ!
+5000000306	Cháu gợi ý một vài món ăn cho bà để nấu vào bữa tối hôm nay nhé.
+5000000307	Bà có thể nấu canh bí đỏ, cá kho tộ hoặc thịt bò xào rau củ.
+5000000308	Bà thích món nào thì cháu sẽ hướng dẫn cách làm cho bà nhé!
+5000000309	Bà xào thịt bò với hành tím, cà rốt và súp lơ xanh.
+5000000310	Nêm gia vị vừa miệng rồi tắt bếp trước khi trộn đều bà nhé.
+5000000311	Bà chờ cháu một lát nhé bà, cháu sẽ giúp bà kiểm tra lịch trình hôm nay của bà.
+5000000312	Ông có thể thử đi chùa, dạo quanh công viên hoặc tham gia các hoạt động văn hóa truyền thống để thư giãn và tận hưởng không khí trong lành nhé.
+5000000313	Hôm nay bà cần uống thuốc tiểu đường trước 8 giờ sáng bà nhé.
+5000000314	Bà nhớ uống đúng liều lượng và theo dõi đường huyết thường xuyên nhé.
+5000000315	Hôm qua ông có ngủ ngon không vậy ông?
+5000000316	Ông có cần cháu giúp gì hôm nay không ạ?
+5000000317	Hôm nay thời tiết đẹp lắm ông, trời nắng nhẹ.
+5000000318	Ông có thể đi dạo hoặc ra ngoài tận hưởng không khí trong lành nhé.
+5000000319	Trời hôm nay có khả năng mưa nhẹ vào buổi chiều nhé bà, nếu bà có ra ngoài thì nhớ mang theo áo mưa hoặc ô dù bà nhé.
+5000000320	Cháu hiểu cảm giác của ông.
+5000000321	Cháu nghĩ con trai của ông cũng nhớ ông nhiều lắm.
+5000000322	Ông đừng buồn nhé, cháu sẽ luôn ở bên cạnh lắng nghe và chia sẻ cùng ông.
+5000000323	Nếu ông cảm thấy cô đơn, ông có thể gọi điện thoại hoặc video call với con trai ông để trò chuyện và chia sẻ cảm xúc nhé.
+5000000324	Nếu ông cần thì cháu có thể giúp ông gọi điện thoại hoặc video call với con trai ông.
+5000000325	Bà có muốn cập nhật tin tức hôm nay không ạ?
+5000000326	Cháu có thể tóm tắt những tin tức nổi bật cho bà nghe nhé!
+5000000327	Ông bị ngã có đau lắm không vậy ông?
+5000000328	Nếu ông thấy đau ở đâu thì ông cứ nói với cháu nhé.
+5000000329	Anh Nam ơi, bà vừa mới bị ngã, cháu thấy bà có vẻ đau lắm.
+5000000330	Anh có thể đến giúp bà được không ạ?
+5000000331	Chúc ông một ngày mới vui vẻ và tràn đầy năng lượng nhé!
+5000000332	Ông chỉ cần luộc rau muống, sau đó cho tôm khô đã ngâm nước vào nồi canh, nêm gia vị vừa ăn là xong rồi nhé ông.
+5000000333	Nếu bà cần gặp bác sĩ chuyên khoa tim mạch, cháu sẽ giúp bà đặt lịch hẹn với bác sĩ giỏi nhất trong khu vực nhé.
+5000000334	Nếu ông cần gặp bác sĩ chuyên khoa nội tiết, cháu sẽ giúp ông đặt lịch hẹn nhé ông.
+5000000335	Ông đừng lo, cháu sẽ nhắc ông uống thuốc đúng giờ và theo dõi sức khỏe của ông hàng ngày nhé.
+5000000336	Đến giờ tập thế dục rồi ông ơi!
+5000000337	Cháu sẽ hướng dẫn ông một số bài tập nhẹ nhàng để duy trì sức khỏe nhé.
+5000000338	Cháu thấy bà đã ngồi khá lâu rồi, bà nên đứng dậy đi lại nhẹ nhàng để tránh mỏi người nhé bà.
+5000000339	Chúc mừng bà đã đi bộ được 5000 bước trong ngày hôm nay!
+5000000340	Bà thật tuyệt vời, hãy tiếp tục duy trì thói quen vận động hàng ngày nhé bà.
+5000000341	Ông đã hoàn thành mục tiêu đi bộ 7000 bước trong ngày hôm nay!
+5000000342	Cháu rất tự hào về ông, hãy tiếp tục duy trì thói quen vận động hàng ngày nhé ông.
+5000000343	Theo lịch hẹn mà ông đã sắp xếp, hôm nay ông có buổi khám sức khỏe định kỳ vào lúc 9 giờ sáng tại phòng khám đa khoa gần nhà ông nhé.
+5000000344	Ông nhớ mang theo bảo hiểm y tế và kết quả khám sức khỏe lần trước để bác sĩ tiện theo dõi tình trạng sức khỏe của ông nhé.
+5000000345	Cháu là Sunny đây ạ, cháu luôn ở bên cạnh để lắng nghe và hỗ trợ ông/bà mỗi ngày.
+5000000346	Dạ cháu đây ạ, ông cần cháu giúp đỡ gì không ạ?
+5000000347	Cháu là sản phẩm của công ty NuverxAI, được thiết kế để hỗ trợ và đồng hành cùng bà trong cuộc sống hàng ngày.
+5000000348	Bà đừng nên bỏ nhiều ớt vào món canh chua nhé bà, như vậy sẽ làm mất vị thanh mát của món ăn đấy bà.
+5000000349	Ông nên ngâm chân vào nước ấm trước khi đi ngủ để giúp thư giãn cơ bắp và cải thiện tuần hoàn máu nhé.
+5000000350	Bà nên uống một ít trà gừng pha mật ông để giảm ho bà nhé.
