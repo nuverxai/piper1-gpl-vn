@@ -27,7 +27,7 @@ Vietnamese fientune procedure
 
 Use [piper-recording-studio](https://github.com/rhasspy/piper-recording-studio) to record and prepare raw data.
 
-**Environment Setup**: 
+* **Environment Setup**: 
 
 
 
@@ -36,14 +36,14 @@ cd ~/
 git clone https://github.com/rhasspy/piper-recording-studio.git
 python3 -m venv ~/piper-recording-studio/.venv
 cd ~/piper-recording-studio/
-[cite_start]source ~/piper-recording-studio/.venv/bin/activate [cite: 4, 5, 6, 7, 8]
+source ~/piper-recording-studio/.venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-[cite_start]python3 -m pip install -r requirements_export.txt [cite: 9, 10, 11]
+python3 -m pip install -r requirements_export.txt
 
 ```
 
-**Procedure**:
+* **Procedure**:
     * Launch recording tool: `python3 -m piper_recording_studio` 
 
 
@@ -56,13 +56,13 @@ python3 -m pip install -r requirements.txt
 
 
 
-**Technical Optimization**: 
+* **Technical Optimization**: 
 
 
-* Check and modify the main file to set the Resample rate to 22050Hz. Code update (Check and update) [Code](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/extra-recording-file/__main__.py)
+    * Check and modify the main file to set the Resample rate to 22050Hz. Code update (Check and update): [update-code](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/extra-recording-file/__main__.py)
 
 
-* If audio issues occur (e.g., clipped sound), adjust export parameters: `threshold: 0.3` and `keep-chunks: 10`.
+    * If audio issues occur (e.g., clipped sound), adjust export parameters: `threshold: 0.3` and `keep-chunks: 10`.
 
 
 
@@ -70,7 +70,7 @@ python3 -m pip install -r requirements.txt
 ### 2. Training on Google Colab
 
 
-* **Setup Colab**: Sử dụng cấu hình tại [nuverxai/piper1-gpl-vn](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/colab/VN_piper_demo.ipynb). 
+* **Setup Colab**: Use the configuration at [nuverxai/piper1-gpl-vn](https://github.com/nuverxai/piper1-gpl-vn/tree/feat/hybrid/colab/VN_piper_demo.ipynb). 
 
 
 * **Input Data**: Compress the dataset folder, upload to Google Drive, and set permissions to Public. -> Get the file ID to change in Colab 
