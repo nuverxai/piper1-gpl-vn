@@ -19,7 +19,8 @@ pip install piper-tts
 * 🛠️ [Building manually][building]
 
 ---
-![NuverxAI](etc/nuverxai-logo.png)
+<img src="/etc/nuverxai-logo.png " width="20%" />
+
 
 ## Internal Voice Training Workflow
 
